@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactDOMServer from 'react-dom/server'
-import { AppRegistry } from 'react-native'
+const React = require('react')
+const ReactDOMServer = require('react-dom/server')
+const { AppRegistry } = require('react-native')
 
 exports.replaceRenderer = ({
   bodyComponent,
